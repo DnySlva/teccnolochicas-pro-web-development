@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+<link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+<style>
+	main{
+		display:flex
+		}
+		
+		body {
+		background-color:#957DAD;
+		margin: 0;
+		}
+		
+		h2{
+		font-family: candara
+		}
+		
+		h3{
+		font-family: candara
+		}
+		
+		p{
+		font-family: candara
+		}
+		
+		li{
+		font-family: candara
+		}
+		
+		#footer{
+		padding:0 20px 20px 20px;
+		font-family: candara;
+		display:flex;
+		margin-top:auto;
+		background-color:#F9F8DA;
+		}
+		
+		.footer__section{
+		flex: 1;
+		display:flex;
+		align-items: center;
+		flex-direction:column;
+		}
+		
+		.social__networks{
+			display:flex;
+			flex-direction:column;
+			gap:20px;
+		}
+		
+		.social__network{
+			display:flex;
+			align-items: center;
+		}
+		
+		.social__icon{
+			font-size: 32px;
+		}
+		
+		.social__icon-handler{
+			margin-left: 10px;
+		}
+		
+		a{
+			text-decoration:underline;
+			color: inherit;
+		}
+		
+		a:hover{
+			text-decoration: underline;
+			text-underline-offset: 3px;
+		}
+		
+		input[type=email], textarea{
+			width:100%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			box-sizing: border-box;
+			border:3px solid #ccc;
+			transition: 0.5s;
+			outline: none;
+		}
+		
+		input[type=email]:focus, textarea: focus{
+			border:3px solid #555;
+		}
+		
+		input[type=sumbit]{
+			background: #666655;
+			border: none;
+			color: white;
+			padding: 16px 32px;
+			text-decoration: none;
+			margin: 4px 2px;
+			cursor: pointer;
+		}
+		
+		#navigation-bar li{
+			display: inline-block;
+		}
+		
+		#navigation-bar ul{
+			margin: 0;
+			padding: 0;
+			border: 1px solid #e7e7e7;
+			background-color: #FFDAC1;
+		}
+		
+		#navigation-bar li a{
+			display: block;
+			color: #665;
+			text-align:center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+		
+		#navigation-bar li a:hover:not(.active){
+			background-color: #E2F0CB;
+		}
+		
+		#navigation-bar li a.active{
+			color: bold black;
+			background-color: #fdf9c4;
+		}
+		
+		#navigation-bar .menu__hamburger-icon {
+			display: none;
+		}
+		
+		@media screen and (max-width: 600px) {
+			#navigation-bar .menu__hamburger-icon {
+				display: none;
+				float: right;
+			}
+		}
+		
+		@media screen and (max-width: 600px) {
+			#navigation-bar li:not(:first-child):not(.menu__hamburger-icon){
+				display: none;
+			}
+		
+			#navigation-bar .menu__hamburger-icon{
+				display: block;
+				float: right;
+			}
+		}
+		
+		@media screen and (max-width: 600px) {
+			#navigation-bar li:not(:first-child){
+				display: none;
+			}
+			#navigation-bar li.menu__hamburger-icon {
+				display:block;
+				float: right;
+			}
+			#navigation-bar.responsive {
+				position:relative;
+			}
+			#navigation-bar.responsive .menu__hamburger-icon {
+				position: absolute;
+				right:0;
+				top: 0;
+			}
+			#navigation-bar.responsive .menu__hamburger-icon a {
+				color: #fff;
+			
+			}
+			#navigation-bar.responsive li a {
+			text-align: left;
+			}
+			
+			 #navigation-bar.responsive li {
+                float: none;
+                display: block !important;
+            }
+		}
+	</style>
+	
+<script>
+	function myFunction() {
+		const navigationBar = document.getElementById("navigation-bar");
+		if (navigationBar.className === "navigation-bar") {
+			navigationBar.className += " responsive";
+		} else {
+			navigationBar.className = "navigation-bar";
+		}
+	}
+</script>
+
+<title>Educación Sexual</title>
+</head>
+	
+	<body>
+		
+		<header id= "#header">
+			<div style="background-color:#C7CEEA;">
+			<h1 style="text-align: center; width:100%; padding: 25px; font-family: Lucida Sans;">Educación Sexual</h1>
+			</div>
+		</header>
+
+
+	<nav id="navigation-bar" class="navigation-bar">
+		<ul>
+			<li><a class="active" href="index2.html">Inicio</a></li>
+			<li><a href="Pagina1.html">Página 1</a></li>
+			<li><a href="Pagina2.html">Página 2</a></li>
+			<li class="menu__hamburger-icon">
+				<a href="javascript:void(0);" onclick="myFunction()">
+					<i class="lni lni-menu"></i>
+				</a>
+			</li>
+		</ul>
+	</nav>
+
+<main>
+<aside style="width:20%; background-color:#FFB7B2; padding: 10px; flex-direction:column;">
+	<div>
+		<p style="text-align:center; font-family: Lucida Sans;"><b>Links relacionados</b></p> 
+		<hr>
+			<p><li> Ir a <a href="https://www.huesped.org.ar/informacion/derechos-sexuales-y-reproductivos/metodos-anticonceptivos/todo-sobre-metodos-anticonceptivos/" target="_blank">Métodos anticonceptivos</a>
+			</li></p>
+			<p><li>Ir a <a href="https://medlineplus.gov/spanish/sexuallytransmitteddiseases.html" target="_blank">Enfermedades de transmisión sexual</a>
+			</li></p>
+			<p><li>Ir a <a href="https://www.plannedparenthood.org/es/temas-de-salud/enfermedades-de-transmision-sexual-ets" target="_blank">Enfermedades venéreas</a>
+			</li></p>
+			<p><li>Ir a <a href="https://salud.edomex.gob.mx/isem/metodos_anticonceptivos" target="_blank">Anticonceptivos Gobierno de México</a>
+			</li></p>
+			<p><li>Ir a <a href="https://www.msdmanuals.com/es-mx/hogar/salud-femenina/planificaci%C3%B3n-familiar/m%C3%A9todos-anticonceptivos-hormonales" target="_blank">Anticonceptivos hormonales</a>
+			</li></p>
+			<p><li>Ir a <a href="https://www.salud.mapfre.es/salud-familiar/mujer/planificacion-familiar/metodos-naturales/#:~:text=Los%20m%C3%A9todos%20naturales%20se%20definen,y%20est%C3%A9ril%20del%20ciclo%20menstrual." target="_blank">Anticonceptivos naturales</a>
+			</li></p>
+			<p><li>Ir a <a href="https://prevention.ucsf.edu/research-project/metodos-de-barrera#:~:text=Las%20barreras%20f%C3%ADsicas%20(como%20el,(la%20pastilla%2C%20etc.)" target="_blank">Anticonceptivos de barrera</a>
+			</li></p>
+			<p><li>Ir a <a href="https://www.drugs.com/cg_esp/m%C3%A9todos-anticonceptivos-de-barrera.html" target="_blank">Métodos de barrera</a>
+			</li></p>
+			<p><li>Ir a <a href="https://profamilia.org.co/servicios/metodos-anticonceptivos/metodos-definitivos/" target="_blank">Métodos definitivos</a>
+			</li></p>
+			
+	</div>
+</aside>
+
+<section style="width:60%">
+	<div style="background-color:#B5EAD7; padding: 10px;">
+		<p style="text-align:center; font-family: Lucida Sans;"><b>Contenido</b></p>
+	<hr>		
+	<article style="text-align:justify;">
+		<img src="sex_edu.jpg" alt="Educación Sexual" style="width:100%">
+		<h2 >¿Qué es la educación sexual?</h2>
+		<p>La educación sexual hace referencia al conjunto de actividades relacionadas con la enseñanza, 
+		difusión y divulgación acerca de la sexualidad en todas las edades del desarrollo, el aparato reproductor 
+		femenino y masculino, la orientación sexual, las relaciones sexuales, la planificación familiar,
+		el empleo correcto de los métodos anticonceptivos, el sexo seguro, la reproducción, los derechos sexuales y 
+		reproductivos, los estudios de género y otros aspectos de la sexualidad, con el objetivo de alcanzar un estado 
+		específico de salud sexual y reproductiva. </p>
+		<h2> Beneficios de la Educación Sexual</h2>
+		<li>Una buena educación sexual provoca que se mantengan 
+			relaciones sexuales responsables.
+		</li>
+		<li>Aprendes a conocer mejor tu cuerpo y acabas con prejuicios.
+		</li>
+		<li>Elimina roles de género preconcebidos en niños/as, 
+		para que tengan derecho a decidir sobre su sexualidad.
+		</li>
+		<li>Tener una buena educación implica una solución 
+		contra la violencia por razones de género.
+		</li>
+		<li>Te da seguridad en ti mismo, terminando con el miedo a un 
+		embarazo no deseado o al contagio de enfermedades de transmisión sexual.
+		</li>
+		
+			<hr>
+		<h2> Métodos anticonceptivos</h2>
+		<img src="metodos.jpg" alt="Imagen de métodos anticonceptivos" style="width:100%;">
+		<h3>¿Qué son los métodos anticonceptivos?</h3>
+		<p> Los métodos anticonceptivos, son sustancias, objetos o procedimientos que 
+		evitan que la mujer o persona gestante quede embarazada. Permiten tener el control de la natalidad, 
+		ayudando a las parejas a decidir si desean o no tener hijos hasta el momento en 
+		que estén preparadas para ello.</p>
+		
+		<h3> Tipos de métodos anticonceptivos</h3>
+			<p> Existen diferentes tipos de maderas para protegerse de un embarazo no deseado, por ejemplo;
+			se dividen en 4 tipos:</p>
+		<ol>	
+			<li id="hormonales">Hormonales</li>
+			<li id="naturales">Naturales</li>
+			<li id="barrera">de Barrera</li>
+			<li id="definitivos">Definitivos</li>
+		</ol>
+		
+		<p>
+			Llamamos métodos <strong>anticonceptivos hormonales</strong> a  todos aquellos que se basan 
+			en el uso de las hormonas sexuales femeninas, incluyendo la progesterona y 
+			el estrógeno, para manipular el ciclo menstrual. Son altamente eficaces en prevenir 
+			el embarazo, pero no tienen ninguna acción en la protección contra las enfermedades 
+			de transmisión sexual.</p> 
+
+				<li><strong>Anticonceptivos orales:</strong> Tomadas por boca, suelen ser pastillas.</li>
+				<li><strong> Anillos vaginales: </strong>Introducidas en la vagina.</li>
+				<li><strong> Parche:</strong> Aplicado sobre la piel.</li> 
+				<li><strong> Implantes: </strong> Aplicado bajo la piel.</li> 
+				<li><strong> Inyecciones anticonceptivas:</strong> Inyectado en el músculo.</li> 
+				<br> 
+			<img src="hormonales.jpg" alt="Imagen de métodos hormonales" style="width:100%;">	
+				
+<hr>
+			<p>Los <strong>métodos naturales</strong> se definen como las técnicas de evitar embarazo 
+			a través de la observación de los síntomas y signos que se producen de 
+			forma natural en las fases fértil y estéril del ciclo menstrual. 
+			<br> Hay varios métodos naturales:</p> 
+		</ol>
+				<li><strong>Método Ogino-Knaus:</strong> Consiste en evitar las relaciones sexuales 
+				durante los días fértiles del ciclo. Para ello se precisa un conocimiento previo del ciclo,
+				identificando los días en que se produce la ovulación, que en ciclos regulares de 28 días
+				ocurre durante el día 14 de ciclo aproximadamente. Se recomienda un registro de al menos 
+				12 meses para estudiar bien el ciclo de cada mujer. Teniendo en cuenta que la vida del 
+				espermatozoide y del óvulo es de unas 24-72 horas no deben mantenerse relaciones entre 
+				los días 8 y 18-20 del ciclo.</li>
+				<br>
+				<li><strong>Método de la temperatura basal:</strong>Se basa en el hecho de que la ovulación 
+				puede ser determinada por los cambios en la temperatura basal de la mujer. Debe tomarse la 
+				temperatura todos los días antes de levantarse para detectar la subida de temperatura de 
+				unos 0,5 ºC aproximadamente que sigue a la ovulación y evitar las relaciones los esos días.</li>
+				<br>
+				<li><strong>Coitus interruptus:</strong>Consiste en la retirada del pene de la vagina 
+				antes de la eyaculación, pero tiene una alta tasa de fallos por la presencia de 
+				espermatozoides en el líquido preeyaculatorio y por que precisa de un autodominio 
+				por parte del varón. 
+				 Entre otros.</li> 
+				 <br>
+				<img src="naturales.jpg" alt="Imagen de métodos naturales" style="width:100%;">
+			<hr>
+				<p>Los métodos <strong>anticonceptivos de barrera</strong> son objetos o medicamentos que bloquean 
+				el esperma y ayudan a prevenir un embarazo. Algunos métodos de barrera también pueden 
+				ayudar a prevenir la propagación de infecciones de transmisión sexual (ITS) </p>
+			<ol><li><strong>El condón o preservativo para varones</strong>: es el método de barrera más común. 
+				Los preservativos están hechos de látex, poliueretano o de piel de cordero. 
+				Estos pueden estar cubiertos con silicona, gel a base de agua o espermicida. 
+				Los preservativos se ajustan sobre el pene e impiden que el semen entre a la vagina. 
+				Los preservativos masculinos pueden ayudar a reducir el contagio de las ITS.</li>
+				<br>
+				<li><strong>Un condón femenino:</strong> es un dispositivo delgado que se inserta dentro de 
+				la vagina hasta 8 horas antes de tener una relación sexual. No se debe usar con 
+				un preservativo masculino. Los preservativos femeninos ayudan a prevenir el contagio
+				de las ITS.</li>
+				<br>
+				<li><strong>Un diafragma:</strong> es una cúpula de látex suave que cubre el cuello uterino 
+				y sirve para evitar que el esperma llegue ahí. Usted necesitará acudir con 
+				su médico para que le tome las medidas para el diafragma. Se deja en su 
+				lugar durante el coito y hasta 6 horas después. Usted puede tener relaciones 
+				sexuales más de una vez con el diafragma en su lugar. El diafragma se debe r
+				etirar en un lapso de 24 horas después de haber tenido relaciones sexuales. 
+				El diafragma ayuda a reducir el contagio de las ITS.</li> </ol>
+				<br>
+				<img src="barrera.jpg" alt="Imagen de métodos de barrera" style="width:100%;">
+				<hr>
+			<p> Los <strong>métodos definitivos</strong> son procedimientos quirúrgicos que no impiden
+				a la mujer o al hombre continuar con su actividad sexual. Para la mujer se realiza 
+				la oclusión tubaria bilateral (OTB) o ligadura de las trompas y para 
+				el hombre la vasectomía sin bisturí.</p>
+			<ol>
+				<li><strong>Ligadura de trompas:</strong> La ligadura de trompas es una cirugía mínimamente 
+				invasiva, ambulatoria y de fácil recuperación que dura alrededor de 10 minutos y consiste 
+				en cauterizar las trompas de falopio para impedir el paso del óvulo al útero evitando así
+				el embarazo.</li>
+				<br>
+				<li><strong> Vasectomía:</strong> Es un método anticonceptivo para los hombres que 
+				no desean tener hijos y para aquellos que ya son padres y no desean tener más.
+				El procedimiento consiste en cortar y/o ligar los conductos deferentes por donde pasan 
+				los espermatozoides desde los testículos para salir en la eyaculación. 
+				Aunque es un método definitivo, se puede llegar a revertir a través de una 
+				cirugía llamada <strong>vasovasostomía.</strong></li>
+			</ol>
+				<img src="definitivos.jpg" alt="Imagen de métodos definitivos" style="width:100%;">
+			<hr>
+			<h2>Enfermedades de transmisión sexual</h2>
+				<p>Las <strong>enfermedades de transmisión sexual</strong>(ETS) son infecciones que se contagian 
+				de una persona a otra usualmente mediante relaciones sexuales.  Son muy comunes y muchas personas con 
+				ETS no tienen síntomas. Por eso, es importante hacerte exámenes sin importar si 
+				tienes síntomas de las ETS o no. Sin tratamiento, las enfermedades de transmisión 
+				sexual pueden causar serios problemas de salud.</p>
+				<p>Algunas enfermedades son:</p>
+				<li><strong>Clamidia:</strong> Es una enfermedad de transmisión sexual muy común causada 
+				por una infección bacteriana. A menudo no tiene síntomas, pero una vez diagnosticada 
+				es fácil de tratar.</li>
+				<br>
+				<li><strong>Gonorrea:</strong> Es una enfermedad de transmisión sexual común causada por una 
+				infección bacteriana. A menudo no tiene síntomas, pero es fácil de tratar una vez diagnosticada.</li>
+				<br>
+				<li><strong>Hepatitis B:</strong> Es una enfermedad de transmisión sexual causada por un virus que 
+				puede producir enfermedad hepática (en el hígado) y que se transmite durante el sexo o por 
+				compartir objetos de higiene personal como máquinas de afeitar o cepillos de dientes.</li>
+				<br>
+				<li><strong> Herpes genital y oral:</strong> Es una enfermedad de transmisión sexual común que infecta 
+				los genitales y la boca. Causa llagas o ampollas. No existe una cura, pero se pueden 
+				tratar los síntomas.</li>
+				<br>
+				<li><strong> VIH y Sida: </strong> El VIH es el virus que causa el sida. Es una infección 
+				que destruye el sistema inmunológico y que puede causar el SIDA. <strong> No existe cura,</strong> 
+				pero hay tratamientos que pueden ayudarte a mantenerte saludable.</li>
+				<br>
+				<li><strong> Papiloma humano:</strong> El papiloma humano o virus del papiloma humano (VPH), 
+				es una enfermedad de transmisión sexual muy común, generalmente inofensiva y que desaparece 
+				por sí sola. Algunos tipos pueden llevar al cáncer.</li>
+				<br>
+				<li><strong>Sífilis: </strong>La sífilis es una infección bacteriana común. 
+				Se cura fácilmente con medicamentos, pero puede ser peligrosa si no se trata.</li>
+				<p>Entre otros.</p>
+				<br>
+				<hr>
+</article>
+
+				
+	</div>
+	</section>
+</main>
+
+
+<footer id="footer">
+<div class="footer__social footer__section">
+	<h2>Mis redes</h2>
+		<div class="social__networks">
+		<div class="social__network">
+		<span class="social__icon-container"><i class="lni lni-discord"></i></span>
+		<span class="social__icon-handler"><a href="https://github.com/">@Lynna</a></span>
+		</div>
+		
+	<div class="social__network">
+		<span class="social__icon-container"><i class="lni lni-linkedin-original"></i></span>
+		<span class="social__icon-handler"><a href="https://mx.linkedin.com/">@Daniela Silva</a></span>
+	</div>
+		</div>
+		</div>
+		
+		<div class="footer__contact-form footer__section">
+			<h2>Contacto</h2>
+	<div>		
+	<form>
+		<label for="contactEmail">Enter your email:</label>
+		<input id="contactEmail" required type="email" placeholder="Ingresa tu correo electrónico">
+		
+		<label for="contactMessage">Mensaje:</label>
+		<textarea id="contactMessage" required rows="4" cols="50"></textarea>
+			
+			<input type="submit" value="Enviar">
+	</form>
+	</div>
+	</div>
+
+		</div>
+		
+		<div class="footer__more-sites footer__section">
+			<h2>Otros de mis sitios</h2>
+		</div>
+	</footer>		
+</body>
+</html>

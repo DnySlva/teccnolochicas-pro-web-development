@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+<title>Educación Sexual</title>
+	
+</head>
+	
+	<body style="background-color:#52D979;">
+		
+		
+	<header
+		flex-direction:row;
+		justify-content:center;
+		style="background-color:#FC9FD7;
+		text-align:center;
+		padding:1%;">
+	<h1>
+		Educación Sexual
+	</h1>
+	
+	</header>
+	
+<br>
+
+<nav 
+	flex-direction:row;
+	style="background-color:#67C9F0; text-align: center; padding:10px;" >
+	 Menú
+</nav>
+	<br>
+
+<div style="background-color:#A798D9; float:left; width: 20%; padding: 6px; ">
+	
+<aside>  	
+	<h2 style="font-size:100%; color: black;">
+		<style=font-family:courier;> Links relacionados </h2>
+		<p><li> Ir a <a href="https://www.huesped.org.ar/informacion/derechos-sexuales-y-reproductivos/metodos-anticonceptivos/todo-sobre-metodos-anticonceptivos/" target="_blank">Metodos anticonceptivos</a>
+		</li></p>
+		<br>
+
+		<li>Ir a <a href="https://medlineplus.gov/spanish/sexuallytransmitteddiseases.html" target="_blank">Enfermedades de transmision sexual</a>
+		</li>
+		</p>
+		</aside>
+</div>
+
+		<br>
+
+	<div style="background-color:#f4e4f5; float:left; width: 60%; margin-top:-18px; padding: 17px;">
+	
+<p style="text-align: center;">
+Información</p>
+
+<br>
+
+<p><img src="https://images.squarespace-cdn.com/content/v1/53aadf1de4b0a0a817640cca/1633709612467-50UJT88QVQA7IDNNU86T/temas+educaci%C3%B3n+sexual.jpg" alt="Educación Sexual" style="width:300px; item-align:center;"></p>
+</div>
+
+	<div style="background-color:#D2FC53; float:right;  width: 20%; margin-right:-4px;margin-top:-52px; padding:17px;">
+
+		Columna vacía	
+	
+	</div>
+
+<footer id="my-footer" class="footer__main_content">
+			
+			<div class="footer__section">
+				<h5>Seccion 1</h5>
+
+			</div>
+			<div class="footer__section">
+				<h5>Contact us</h5>
+
+				<form>
+					<div class="form-group">
+						<label for="email">email:</label><br>
+						<input type="email" id="email" name="email" placeholder="Write your email" ><br><br>
+					</div>
+					<div class="form-group">
+						<label for="comments">Comments: </label><br>
+						<textarea name="comments" rows="10" cols="30">
+						</textarea>
+					</div>
+					<input type="submit" value="Submit">
+				</form>
+
+			</div>
+			<div class="footer__section">
+				<h5>Follow us</h5>
+				<div class="social-media__section">
+					<a href="https://www.linkedin.com/" target="_blank"><i class="lni lni-linkedin-original"></i></a>
+					<i class="lni lni-github-original"></i>
+				</div>
+			</div>
+		</footer>
+
+	
+	
+			<p 
+		
+		<br>
+	
+<table border="1px" style="width:30%">
+		
+
+
+
+
+
+
+
+
+		<p style="color:purple; font-size:160%;">
+		
+		<b>¿Qué es la educación sexual?</b>
+		
+		
+		<br>
+
+ 		<p style="color:black; font-size:160%;">
+		
+		<b>Métodos anticonceptivos</b>
+		
+			<table border="1px">
+			<tr>
+				<th>Tipo</th>
+				<th>Nombre</th>
+				<th>Dirigido a</th>
+				<th>Características</th>
+				<th>Duración</th>
+			</tr>
+			
+			<tr>
+				<td>Hormonal</td>
+				<td>implante</td>
+				<td>algo</td>
+				<td>Halgo</td>
+				<td>algo</td>
+			
+			</tr>
+			
+			<tr>
+				<td>Hormonal</td>
+				<td>implante</td>
+				<td>algo</td>
+				<td>Halgo</td>
+				<td>algo</td>
+			
+			</tr>
+
+			</table>
+			
+			<br>
+
+		
+		
+		<br>
+		<img src="mi_imagen.jpg">
+		<br>
+		
+		<p style="color:black; font-size:160%;">
+	
+		<b>Enfermedades de transmisión sexual</b>
+		
+		</p>
+		<br>
+		
+		<p style="color:black; font-size:160%;">
+				
+		<b>Oops! No funcionó mi metódo, ¿Ahora que hago?</b>
+		</p>
+		<br>
+		
+		
+
+</body>
+</html>
